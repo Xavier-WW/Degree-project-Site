@@ -6,8 +6,8 @@
     display:none;
     position:absolute;
     border:1px solid #000;
-    width:400px;
-    height:400px;
+    width:60%;
+    height:60%;
 }
 *, body, button, input, textarea, select {
     text-rendering: optimizeLegibility;
