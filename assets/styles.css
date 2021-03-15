@@ -28,7 +28,7 @@ p cite {
     text-align: right;
     display: block;
 }
-
+ 
 @media (max-width: 1036px) {
   #panel {
       min-width: 100%;
