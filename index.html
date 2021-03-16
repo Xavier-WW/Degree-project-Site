@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/prism.css" />
+    <script src="assets/script.js" type="text/javascript"></script>
+    <!--filter ish-->
+    <script src="assets/scrollTo.js" type="text/javascript"></script>
     <!--remember to use the fontawsome icon!!!-->
     <script src="https://kit.fontawesome.com/3b624c0899.js" crossorigin="anonymous"></script>
     <!--PopperJS-Prevent preview/tooltip Overflow-->
@@ -41,6 +44,7 @@
       gtag('js', new Date());
       gtag('config', 'UA-11649917-2');
     </script>
+    <style type="text/css">html {height:100%;}.noScroll{overflow:hidden !important;}* {-moz-transform-origin: 0 0;-webkit-transform-origin: 0 0;-o-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;}body.noScroll,html.noScroll body{margin-right:0px;}</style><style type="text/css">.zoomTarget{-webkit-touch-callout: none;-moz-user-select:none;-webkit-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;}.zoomTarget:hover{cursor:pointer!important;}.zoomNotClickable{-webkit-touch-callout: default;-moz-user-select:text;-webkit-user-select:text;-o-user-select:text;-ms-user-select:text;user-select:text;}.zoomNotClickable:hover{cursor:auto!important;}.zoomContainer{position:relative;padding:1px;margin:-1px;}</style><link type="text/css" rel="stylesheet" charset="UTF-8" href=".assets/translateelement.css">
   </head>
   <body>
   <div id="menu">
@@ -50,15 +54,18 @@
     <div id="menuButton">
       |||
     </div>
+
     <div id="bookPadding">
       <!--<p><img alt="Front End Developers Handbook 2019 Cover" src="./assets/images/FM_2019Cover_final.jpg"></p>-->
       <h1>Indexing system of web front-end knowledge</h1>
+
       <!--<h3 style="margin-top:0px"><a id="Written_by_Cody_Lindleyhttpcodylindleycom_3"></a>Written by <a href="http://codylindley.com/">Cody Lindley</a></h3>
       <section>
         <p><em>Sponsored by <a href="https://frontendmasters.com/">Frontend Masters</a>, advancing your skills with in-depth, modern front-end engineering courses</em></p>
       </section>
       <p>Download: <a href="https://github.com/FrontendMasters/front-end-handbook-2019/raw/master/exports/Front-end%20Developer%20Handbook%202019.pdf">PDF</a> | <a href="https://github.com/FrontendMasters/front-end-handbook-2019/raw/master/exports/Front-End%20Developer%20Handbook%202019.epub">epub</a></p>-->
       <hr>
+
       <h3>Overview:</h3>
       <p>This is a guide that everyone can use to learn about the practice of front-end development. It broadly outlines and discusses the practice of front-end engineering: how to learn it and what tools are used when practicing it.</p>
       <p>It is specifically written with the intention of being a professional resource for potential and currently practicing front-end designers/developers to equip themselves with learning materials and development tools. Secondarily, it can be used by managers, CTOs, instructors, and head hunters to gain insights into the practice of front-end development.</p>
@@ -91,6 +98,57 @@
       <p><strong>Contribute content, suggestions, and fixes on github</strong>:</p>
       <p><a href="https://github.com/FrontendMasters/front-end-handbook-2019">https://github.com/FrontendMasters/front-end-handbook-2019</a></p>-->
       <hr>
+        <!--...filter...-->
+        <div><button class="active topscroller" id="info" style="pointer-events: auto; opacity: 1;">
+          <div class="circle"></div>
+          Information  </button></div>
+      <div class="filter" style="pointer-events: auto; opacity: 1;">
+        <button class="" id="spectialbutton">
+          <div class="circle"></div> Information
+        </button>
+        <button id="html" class="">
+          <div class="circle"></div>HTML
+        </button>
+        <button id="css" class="">
+          <div class="circle"></div>CSS
+        </button>
+        <button id="js" class="">
+          <div class="circle"></div>JS
+        </button>
+        <button id="nav" class="">
+          <div class="circle"></div>Navbar
+        </button>
+        <button id="typo" class="">
+          <div class="circle"></div>Typography
+        </button>
+        <button id="webgl" class="">
+          <div class="circle"></div>WebGL
+        </button>
+        <button id="ui" class="">
+          <div class="circle"></div>UI/UX
+        </button>
+        <button id="ani" class="">
+          <div class="circle"></div>Animations
+        </button>
+        <button id="ec" class="">
+          <div class="circle"></div>Electric Colors
+        </button>
+        <button id="vector" class="">
+          <div class="circle"></div>Vector
+        </button>
+        <button id="ie" class="">
+          <div class="circle"></div>Interactive Experience
+        </button>
+        <button id="tool" class="">
+          <div class="circle"></div>Code Editors/Online Tools
+        </button>
+        <button id="rd" class="">
+          <div class="circle"></div>Responsive Design
+        </button>
+        <button id="site" class="">
+          <div class="circle"></div>Inspirational sites
+        </button>
+       
       <div class="chapter" id="chapter1">
         <h2>Chapter 1. What Is a Front-end Developer?</h2>
         <section class="sub">
@@ -5255,6 +5313,7 @@
   <script src="assets/slideout.min.js"></script>
   <script src="assets/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/lozad-1.14.0.min.js"></script>
+  <script src="assets/scrollTo.js" type="text/javascript"></script>
   <script>
       // Lazy load images that have [data-src]
       var observer = lozad('[data-src]');
