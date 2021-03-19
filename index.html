@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/prism.css" />
     <script src="assets/script.js" type="text/javascript"></script>
-    <!--filter ish-->
-    <script src="assets/scrollTo.js" type="text/javascript"></script>
     <!--remember to use the fontawsome icon!!!-->
     <script src="https://kit.fontawesome.com/3b624c0899.js" crossorigin="anonymous"></script>
     <!--PopperJS-Prevent preview/tooltip Overflow-->
@@ -30,11 +28,7 @@
         placement: 'right',
       });
     </script>
-    
-    <script
-    type="text/javascript"
-    src="assets/jquery-1.4.2.js"
-    ></script>
+    <script type="text/javascript" src="assets/jquery-1.4.2.js"></script>
     <script src="assets/25feb.js"></script>
     <script src="assets/prism.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11649917-2"></script>
@@ -99,12 +93,12 @@
       <p><a href="https://github.com/FrontendMasters/front-end-handbook-2019">https://github.com/FrontendMasters/front-end-handbook-2019</a></p>-->
       <hr>
         <!--...filter...-->
-        <div><button class="active topscroller" id="info" style="pointer-events: auto; opacity: 1;">
+        <!-- <div><button class="active topscroller" id="info" style="pointer-events: auto; opacity: 1;">
           <div class="circle"></div>
-          Information  </button></div>
+          Information  </button></div> -->
       <div class="filter" style="pointer-events: auto; opacity: 1;">
-        <button class="" id="spectialbutton">
-          <div class="circle"></div> Information
+        <button class="" id="info">
+          <div class="circle"></div> Info 
         </button>
         <button id="html" class="">
           <div class="circle"></div>HTML
@@ -148,7 +142,8 @@
         <button id="site" class="">
           <div class="circle"></div>Inspirational sites
         </button>
-       
+      </div>
+    <div class="info" id="project1" style="display: inline-block;">   
       <div class="chapter" id="chapter1">
         <h2>Chapter 1. What Is a Front-end Developer?</h2>
         <section class="sub">
@@ -250,6 +245,7 @@
           </ol>
         </div>
       </div>
+    </div>
       <div class="chapter" id="chapter2">
         <h2>Chapter 2. The Practice of Front-end Development: Overview</h2>
         <section class="sub">
@@ -1089,226 +1085,229 @@
             <a href="https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=8b0b0771a9985e4e030ef1fe29cf6409&amp;camp=1789&amp;creative=9325" target="_blank">Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability</a> [read][$]
           </li>
         </ul>
-        <h3>3.8 - Learn HTML &amp; CSS</h3>
-        <blockquote>
-          <p><strong>HTML</strong> - HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.</p>
-          <p><cite>— <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia</a></cite></p>
-          <p><strong>CSS</strong> - Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. Although most often used to change the style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any kind of XML document, including plain XML, SVG and XUL. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.</p>
-          <p><cite>— <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Wikipedia</a></cite></p>
-        </blockquote>
-        <p>Liken to constructing a house, one might consider HTML the framing and CSS to be the painting &amp; decorating.</p>
-        <h4>General Learning:</h4>
-        <ul>
-          <li>
-            <a href="http://codepen.io/shshaw/full/gEiDt" target="_blank">Absolute Centering in CSS</a> [read]
-          </li>
-          <li>
-            <a href="http://www.pluralsight.com/courses/css-positioning-1834" target="_blank">CSS Positioning</a> [watch][$]
-          </li>
-          <li>
-            <a href="https://frontendmasters.com/courses/web-development-v2/">Introduction to Web Development (v2)</a> [watch]
-          </li>
-          <li>
-            <a href="http://www.pluralsight.com/courses/front-end-web-development-get-started" target="_blank">Front End Web Development: Get Started</a> [watch][$]
-          </li>
-          <li>
-            <a href="http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css" target="_blank">Front-End Web Development Quick Start With HTML5, CSS, and JavaScript</a> [watch][$]
-          </li>
-          <li>
-            <a href="https://www.amazon.com/gp/product/1118008189/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=b1c45ab715f267f7dfed8c981c14eceb&amp;camp=1789&amp;creative=9325" target="_blank">HTML and CSS: Design and Build Websites</a> [read][$]
-          </li>
-          <li>
-            <a href="http://www.pluralsight.com/courses/html-document-flow-1837" target="_blank">HTML Document Flow</a> [watch][$]
-          </li>
-          <li>
-            <a href="https://www.amazon.com/gp/product/1590597656/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=a5c4eb997239ea9e57a86456cef7763c&amp;camp=1789&amp;creative=9325" target="_blank">HTML Mastery: Semantics, Standards, and Styling</a> [read][$]
-          </li>
-          <li>
-            <a href="https://internetingishard.com/" target="_blank">Interneting is Hard</a> [read]
-          </li>
-          <li>
-            <a href="https://www.khanacademy.org/computing/computer-programming/html-css" target="_blank">Intro to HTML/CSS: Making webpages</a> [watch]
-          </li>
-          <li>
-            <a href="http://learn.shayhowe.com/html-css/" target="_blank">Learn to Code HTML &amp; CSS</a> [read]
-          </li>
-          <li>
-            <a href="http://learnlayout.com/" target="_blank">Learn CSS Layout</a> [read]
-          </li>
-          <li>
-            <a href="http://marksheet.io/" target="_blank">MarkSheet</a> [read]
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">MDN: HTML</a> [read]
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank">MDN: CSS</a> [read]
-          </li>
-          <li>
-            <a href="https://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages" target="_blank">Semantic HTML: How to Structure Web Pages</a> [watch]
-          </li>
-          <li>
-            <a href="https://webdesign.tutsplus.com/courses/solid-html-form-structure" target="_blank">Solid HTML Form Structure</a> [watch]
-          </li>
-          <li>
-            <a href="https://webdesign.tutsplus.com/courses/understanding-the-css-box-model" target="_blank">Understanding the CSS Box Model</a> [watch]
-          </li>
-          <li>
-            <a href="https://resilientwebdesign.com/" target="_blank">Resilient Web Design</a> [read]
-          </li>
-        </ul>
-        <h4 id="mastering-css">Mastering CSS:</h4>
-        <ul>
-          <li>
-            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a> [read]
-          </li>
-          <li>
-            <a href="https://frontendmasters.com/courses/css-grids-flexbox/">CSS Grids and Flexbox for Responsive Web Design</a> [watch][$]
-          </li>
-          <li>
-            <a href="http://flukeout.github.io/" target="_blank">CSS Diner</a> [interact]
-          </li>
-          <li>
-            <a href="http://css4-selectors.com/selectors/" target="_blank">CSS Selectors from CSS4 till CSS1</a> [read]
-          </li>
-          <li>
-            <a href="https://www.amazon.com/CSS-Secrets-Solutions-Everyday-Problems/dp/1449372635/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=40a9480c18839b4b2ea798aa2afafd0e&amp;camp=1789&amp;creative=9325" target="_blank">CSS Secrets: Better Solutions to Everyday Web Design Problems</a> [read][$]
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">CSS3</a> [read]
-          </li>
-          <li>
-            <a href="https://frontendmasters.com/courses/css-in-depth-v2/" target="_blank">CSS In-Depth, v2</a> [watch][$]
-          </li>
-          <li>
-            <a href="http://flexbox.io/" target="_blank">What the Flexbox?! A Simple, Free 20 Video Course That Will Help You Master CSS Flexbox</a> [watch]
-          </li>
-          <li>
-            <a href="https://atomiks.github.io/30-seconds-of-css/" target="_blank">30 Seconds of CSS - A curated collection of useful CSS snippets you can understand in 30 seconds or less.</a> [read]
-          </li>
-        </ul>
-        <h4>References/Docs:</h4>
-        <ul>
-          <li>
-            <a href="http://csstriggers.com/" target="_blank">CSS Triggers...a Game of Layout, Paint, and Composite</a>
-          </li>
-          <li>
-            <a href="http://cssreference.io/" target="_blank">cssreference.io</a>
-          </li>
-          <li>
-            <a href="http://cssvalues.com/" target="_blank">cssvalues.com</a>
-          </li>
-          <li>
-            <a href="https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css" target="_blank">Default CSS for Chrome Browser</a>
-          </li>
-          <li>
-            <a href="http://gethead.info/" target="_blank">Head - A list of everything that could go in the
-            <div data-element="head">
-              of your document
-            </div></a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML Attribute Reference</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">MDN CSS Reference</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN HTML Element Reference</a>
-          </li>
-        </ul>
-        <h4 id="glossaryvocabulary">Glossary/Vocabulary:</h4>
-        <ul>
-          <li>
-            <a href="https://www.codecademy.com/articles/glossary-css" target="_blank">CSS Glossary - Programming Reference for CSS Covering Comments, Properties, and Selectors</a>
-          </li>
-          <li>
-            <a href="http://apps.workflower.fi/vocabs/css/en" target="_blank">CSS Vocabulary</a>
-          </li>
-          <li>
-            <a href="https://www.codecademy.com/articles/glossary-html" target="_blank">HTML Glossary Programming Reference for HTML elements</a>
-          </li>
-        </ul>
-        <h4>Standards/Specifications:</h4>
-        <ul>
-          <li>
-            <a href="http://www.w3.org/Style/CSS/current-work#roadmap" target="_blank">All W3C CSS Specifications</a>
-          </li>
-          <li>
-            <a href="http://www.w3.org/standards/techs/html#w3c_all" target="_blank">All W3C HTML Spec</a>
-          </li>
-          <li>
-            <a href="https://drafts.csswg.org/css2/" target="_blank">Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</a>
-          </li>
-          <li>
-            <a href="https://drafts.csswg.org/indexes/" target="_blank">CSS Indexes - A listing of every term defined by CSS specs</a>
-          </li>
-          <li>
-            <a href="https://html.spec.whatwg.org/multipage/semantics.html#semantics" target="_blank">The Elements of HTML from the Living Standard</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes" target="_blank">Global Attributes</a>
-          </li>
-          <li>
-            <a href="https://html.spec.whatwg.org/multipage/syntax.html#syntax" target="_blank">The HTML Syntax</a> from the Living Standard
-          </li>
-          <li>
-            <a href="http://w3c.github.io/html/" target="_blank">HTML 5.2 from W3C</a>
-          </li>
-          <li>
-            <a href="http://www.w3.org/TR/css3-selectors/" target="_blank">Selectors Level 3</a>
-          </li>
-        </ul>
-        <h4>Architecting CSS:</h4>
-        <ul>
-          <li>
-            <a href="http://atomicdesign.bradfrost.com/" target="_blank">Atomic Design</a> [read]
-          </li>
-          <li>
-            <a href="http://getbem.com/introduction/" target="_blank">BEM</a>
-          </li>
-          <li>
-            <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/" target="_blank">ITCSS</a>
-          </li>
-          <li>
-            <a href="http://oocss.org/" target="_blank">OOCSS</a> [read]
-          </li>
-          <li>
-            <a href="https://smacss.com/" target="_blank">SMACSS</a> [read][$]
-            <ul>
-              <li>
-                <a href="https://frontendmasters.com/courses/smacss/" target="_blank">Scalable Modular Architecture for CSS (SMACSS)</a> [watch][$]
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="http://suitcss.github.io" target="_blank">SUIT CSS</a>
-          </li>
-          <li>
-            <a href="http://rscss.io/" target="_blank">rscss</a>
-          </li>
-        </ul>
-        <h4>Authoring/Architecting Conventions:</h4>
-        <ul>
-          <li>
-            <a href="http://codeguide.co/#css" target="_blank">CSS code guide</a> [read]
-          </li>
-          <li>
-            <a href="https://github.com/jareware/css-architecture" target="_blank">css-architecture</a>
-          </li>
-          <li>
-            <a href="http://cssguidelin.es/" target="_blank">cssguidelin.es</a> [read]
-          </li>
-          <li>
-            <a href="https://github.com/necolas/idiomatic-css" target="_blank">Idiomatic CSS</a> [read]
-          </li>
-          <li>
-            <a href="http://maintainablecss.com/" target="_blank">MaintainableCSS</a> [read]
-          </li>
-          <li>
-            <a href="http://mdo.github.io/code-guide/" target="_blank">Standards for Developing Flexible, Durable, and Sustainable HTML and CSS</a> [read]
-          </li>
-        </ul>
+        <!--<div class="html css" style="display: inline-block;"></div>-->
+        <div class="html css" id="project1" style="display: inline-block;"></div>
+          <h3>3.8 - Learn HTML &amp; CSS</h3>
+          <blockquote>
+            <p><strong>HTML</strong> - HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.</p>
+            <p><cite>— <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia</a></cite></p>
+            <p><strong>CSS</strong> - Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. Although most often used to change the style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any kind of XML document, including plain XML, SVG and XUL. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.</p>
+            <p><cite>— <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">Wikipedia</a></cite></p>
+          </blockquote>
+          <p>Liken to constructing a house, one might consider HTML the framing and CSS to be the painting &amp; decorating.</p>
+          <h4>General Learning:</h4>
+          <ul>
+            <li>
+              <a href="http://codepen.io/shshaw/full/gEiDt" target="_blank">Absolute Centering in CSS</a> [read]
+            </li>
+            <li>
+              <a href="http://www.pluralsight.com/courses/css-positioning-1834" target="_blank">CSS Positioning</a> [watch][$]
+            </li>
+            <li>
+              <a href="https://frontendmasters.com/courses/web-development-v2/">Introduction to Web Development (v2)</a> [watch]
+            </li>
+            <li>
+              <a href="http://www.pluralsight.com/courses/front-end-web-development-get-started" target="_blank">Front End Web Development: Get Started</a> [watch][$]
+            </li>
+            <li>
+              <a href="http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css" target="_blank">Front-End Web Development Quick Start With HTML5, CSS, and JavaScript</a> [watch][$]
+            </li>
+            <li>
+              <a href="https://www.amazon.com/gp/product/1118008189/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=b1c45ab715f267f7dfed8c981c14eceb&amp;camp=1789&amp;creative=9325" target="_blank">HTML and CSS: Design and Build Websites</a> [read][$]
+            </li>
+            <li>
+              <a href="http://www.pluralsight.com/courses/html-document-flow-1837" target="_blank">HTML Document Flow</a> [watch][$]
+            </li>
+            <li>
+              <a href="https://www.amazon.com/gp/product/1590597656/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=a5c4eb997239ea9e57a86456cef7763c&amp;camp=1789&amp;creative=9325" target="_blank">HTML Mastery: Semantics, Standards, and Styling</a> [read][$]
+            </li>
+            <li>
+              <a href="https://internetingishard.com/" target="_blank">Interneting is Hard</a> [read]
+            </li>
+            <li>
+              <a href="https://www.khanacademy.org/computing/computer-programming/html-css" target="_blank">Intro to HTML/CSS: Making webpages</a> [watch]
+            </li>
+            <li>
+              <a href="http://learn.shayhowe.com/html-css/" target="_blank">Learn to Code HTML &amp; CSS</a> [read]
+            </li>
+            <li>
+              <a href="http://learnlayout.com/" target="_blank">Learn CSS Layout</a> [read]
+            </li>
+            <li>
+              <a href="http://marksheet.io/" target="_blank">MarkSheet</a> [read]
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">MDN: HTML</a> [read]
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank">MDN: CSS</a> [read]
+            </li>
+            <li>
+              <a href="https://webdesign.tutsplus.com/courses/semantic-html-how-to-structure-web-pages" target="_blank">Semantic HTML: How to Structure Web Pages</a> [watch]
+            </li>
+            <li>
+              <a href="https://webdesign.tutsplus.com/courses/solid-html-form-structure" target="_blank">Solid HTML Form Structure</a> [watch]
+            </li>
+            <li>
+              <a href="https://webdesign.tutsplus.com/courses/understanding-the-css-box-model" target="_blank">Understanding the CSS Box Model</a> [watch]
+            </li>
+            <li>
+              <a href="https://resilientwebdesign.com/" target="_blank">Resilient Web Design</a> [read]
+            </li>
+          </ul>
+          <h4 id="mastering-css">Mastering CSS:</h4>
+          <ul>
+            <li>
+              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a> [read]
+            </li>
+            <li>
+              <a href="https://frontendmasters.com/courses/css-grids-flexbox/">CSS Grids and Flexbox for Responsive Web Design</a> [watch][$]
+            </li>
+            <li>
+              <a href="http://flukeout.github.io/" target="_blank">CSS Diner</a> [interact]
+            </li>
+            <li>
+              <a href="http://css4-selectors.com/selectors/" target="_blank">CSS Selectors from CSS4 till CSS1</a> [read]
+            </li>
+            <li>
+              <a href="https://www.amazon.com/CSS-Secrets-Solutions-Everyday-Problems/dp/1449372635/?&amp;_encoding=UTF8&amp;tag=frontend-handbook-20&amp;linkCode=ur2&amp;linkId=40a9480c18839b4b2ea798aa2afafd0e&amp;camp=1789&amp;creative=9325" target="_blank">CSS Secrets: Better Solutions to Everyday Web Design Problems</a> [read][$]
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">CSS3</a> [read]
+            </li>
+            <li>
+              <a href="https://frontendmasters.com/courses/css-in-depth-v2/" target="_blank">CSS In-Depth, v2</a> [watch][$]
+            </li>
+            <li>
+              <a href="http://flexbox.io/" target="_blank">What the Flexbox?! A Simple, Free 20 Video Course That Will Help You Master CSS Flexbox</a> [watch]
+            </li>
+            <li>
+              <a href="https://atomiks.github.io/30-seconds-of-css/" target="_blank">30 Seconds of CSS - A curated collection of useful CSS snippets you can understand in 30 seconds or less.</a> [read]
+            </li>
+          </ul>
+          <h4>References/Docs:</h4>
+          <ul>
+            <li>
+              <a href="http://csstriggers.com/" target="_blank">CSS Triggers...a Game of Layout, Paint, and Composite</a>
+            </li>
+            <li>
+              <a href="http://cssreference.io/" target="_blank">cssreference.io</a>
+            </li>
+            <li>
+              <a href="http://cssvalues.com/" target="_blank">cssvalues.com</a>
+            </li>
+            <li>
+              <a href="https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css" target="_blank">Default CSS for Chrome Browser</a>
+            </li>
+            <li>
+              <a href="http://gethead.info/" target="_blank">Head - A list of everything that could go in the
+              <div data-element="head">
+                of your document
+              </div></a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML Attribute Reference</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">MDN CSS Reference</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN HTML Element Reference</a>
+            </li>
+          </ul>
+          <h4 id="glossaryvocabulary">Glossary/Vocabulary:</h4>
+          <ul>
+            <li>
+              <a href="https://www.codecademy.com/articles/glossary-css" target="_blank">CSS Glossary - Programming Reference for CSS Covering Comments, Properties, and Selectors</a>
+            </li>
+            <li>
+              <a href="http://apps.workflower.fi/vocabs/css/en" target="_blank">CSS Vocabulary</a>
+            </li>
+            <li>
+              <a href="https://www.codecademy.com/articles/glossary-html" target="_blank">HTML Glossary Programming Reference for HTML elements</a>
+            </li>
+          </ul>
+          <h4>Standards/Specifications:</h4>
+          <ul>
+            <li>
+              <a href="http://www.w3.org/Style/CSS/current-work#roadmap" target="_blank">All W3C CSS Specifications</a>
+            </li>
+            <li>
+              <a href="http://www.w3.org/standards/techs/html#w3c_all" target="_blank">All W3C HTML Spec</a>
+            </li>
+            <li>
+              <a href="https://drafts.csswg.org/css2/" target="_blank">Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</a>
+            </li>
+            <li>
+              <a href="https://drafts.csswg.org/indexes/" target="_blank">CSS Indexes - A listing of every term defined by CSS specs</a>
+            </li>
+            <li>
+              <a href="https://html.spec.whatwg.org/multipage/semantics.html#semantics" target="_blank">The Elements of HTML from the Living Standard</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes" target="_blank">Global Attributes</a>
+            </li>
+            <li>
+              <a href="https://html.spec.whatwg.org/multipage/syntax.html#syntax" target="_blank">The HTML Syntax</a> from the Living Standard
+            </li>
+            <li>
+              <a href="http://w3c.github.io/html/" target="_blank">HTML 5.2 from W3C</a>
+            </li>
+            <li>
+              <a href="http://www.w3.org/TR/css3-selectors/" target="_blank">Selectors Level 3</a>
+            </li>
+          </ul>
+          <h4>Architecting CSS:</h4>
+          <ul>
+            <li>
+              <a href="http://atomicdesign.bradfrost.com/" target="_blank">Atomic Design</a> [read]
+            </li>
+            <li>
+              <a href="http://getbem.com/introduction/" target="_blank">BEM</a>
+            </li>
+            <li>
+              <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/" target="_blank">ITCSS</a>
+            </li>
+            <li>
+              <a href="http://oocss.org/" target="_blank">OOCSS</a> [read]
+            </li>
+            <li>
+              <a href="https://smacss.com/" target="_blank">SMACSS</a> [read][$]
+              <ul>
+                <li>
+                  <a href="https://frontendmasters.com/courses/smacss/" target="_blank">Scalable Modular Architecture for CSS (SMACSS)</a> [watch][$]
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="http://suitcss.github.io" target="_blank">SUIT CSS</a>
+            </li>
+            <li>
+              <a href="http://rscss.io/" target="_blank">rscss</a>
+            </li>
+          </ul>
+          <h4>Authoring/Architecting Conventions:</h4>
+          <ul>
+            <li>
+              <a href="http://codeguide.co/#css" target="_blank">CSS code guide</a> [read]
+            </li>
+            <li>
+              <a href="https://github.com/jareware/css-architecture" target="_blank">css-architecture</a>
+            </li>
+            <li>
+              <a href="http://cssguidelin.es/" target="_blank">cssguidelin.es</a> [read]
+            </li>
+            <li>
+              <a href="https://github.com/necolas/idiomatic-css" target="_blank">Idiomatic CSS</a> [read]
+            </li>
+            <li>
+              <a href="http://maintainablecss.com/" target="_blank">MaintainableCSS</a> [read]
+            </li>
+            <li>
+              <a href="http://mdo.github.io/code-guide/" target="_blank">Standards for Developing Flexible, Durable, and Sustainable HTML and CSS</a> [read]
+            </li>
+          </ul>
+        <!--</div>-->
         <h3>3.9 - Learn Search Engine Optimization</h3>
         <blockquote>
           <p>Search engine optimization (SEO) is the process of affecting the visibility of a website or a web page in a search engine's unpaid results — often referred to as "natural," "organic," or "earned" results. In general, the earlier (or higher ranked on the search results page), and more frequently a site appears in the search results list, the more visitors it will receive from the search engine's users. SEO may target different kinds of search, including image search, local search, video search, academic search, news search and industry-specific vertical search engines.</p>
@@ -5309,11 +5308,13 @@
       </div>
     </div>
   </div>
+  </div>
   <script src="assets/25feb.js"></script>
   <script src="assets/slideout.min.js"></script>
   <script src="assets/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/lozad-1.14.0.min.js"></script>
-  <script src="assets/scrollTo.js" type="text/javascript"></script>
+  <script src="assets/jquery.lazy.min.js" type="text/javascript"></script>
+  <script src="assets/jquery-2.2.4.min.js" type="text/javascript"></script>
   <script>
       // Lazy load images that have [data-src]
       var observer = lozad('[data-src]');

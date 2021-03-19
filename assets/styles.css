@@ -4,14 +4,17 @@
 }
 .prev {
     display:none;
+    /*position:absolute; */
     position:absolute;
     left:auto;
     right:auto;
-    /*align-items: center;didn't look good flashes*/
-    z-index: 1;  
+    /*align-items: center;didn't look good, it flashes*/
+    z-index: 2;  
     border:1px solid #000;
+    background-color: #ffffff;/*some URL use trans back color - use bkc will cover it*/
     width:600px;
     height:600px;
+    transition-delay:1s;
     /*overflow-x:hidden;
     overflow-y:auto;*/
     /*transform-origin:center bottom;
@@ -22,6 +25,8 @@ body {
     width: 100%;
     height: 100%;
     word-break: break-word;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 p cite {
@@ -204,7 +209,8 @@ hr {
     margin-right: 15%;
         /*max-width: 1660px;*/
     padding: 0 5%;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    overflow: none;
 }
 
 .slideout-open .slideout-panel {
@@ -442,6 +448,7 @@ button{
     position: sticky;
     clear: both;
     margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
     z-index: 99;
     transition: opacity 0.25s linear;
   }
@@ -451,7 +458,7 @@ button{
   }
     
   .filter button{
-    position: relative;
+    /*position: relative;*/
     display: inline-block;
     margin-bottom: 0.5vw;
   }
@@ -463,7 +470,7 @@ button{
 
   #info{
     margin-bottom: 7vw !important;
-    position: relative;
+    /*position: relative;*/
     float: left;
   }
 
@@ -471,6 +478,7 @@ button{
     color: white;
     border: 0.105vw solid black;
     background: black;
+    position: sticky;
   }
 
   #info.active .circle{
@@ -482,7 +490,7 @@ button{
     position: -webkit-sticky;
     position: sticky;
     margin-bottom: -2vw;
-    z-index: 99999;
+    z-index: 999;
   }
   
   .mac #info{
@@ -492,3 +500,21 @@ button{
   #info.active{
     margin-bottom: 2.5vw !important;
   }
+/*
+  .projects{
+    min-height: calc(100vh - 6vw);
+  }
+  
+  .project div{
+    margin-top: 0.75vw;
+  }
+
+  .hiddden{
+    opacity: 0;
+    pointer-events: none !important;
+  }
+
+  .overflowww{
+    pointer-events: none !important;
+  }
+  */
