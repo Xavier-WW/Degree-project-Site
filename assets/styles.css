@@ -20,6 +20,11 @@
     /*transform-origin:center bottom;
     transform-origin:0 0;*/
 }
+/*scroll smooth -- 21 Mar*/
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     z-index: 1;
     width: 100%;
@@ -49,6 +54,7 @@ p cite {
 
 #panel a:active {
     outline-width: 0;
+    background-color: black;
 }
 
 #panel a:hover {
@@ -111,7 +117,11 @@ h4 {
     font-weight: bold;
     margin: 0px;
 }
-
+/*----------------23Mar not working-------------------------------*/
+#menu a:active{
+    background-color: #c02d28;
+}
+/*-----------------------------------------------*/
 p {
     margin-top: 30px;
     font-size: 17px;
@@ -186,7 +196,11 @@ hr {
     display: none;
     background-color: #272727;
 }
+/*----------------23Mar not working-------------------------------*/
+.slideout-menu a:active{
+    background-color: #a728c0
 
+}
 .slideout-menu-left {
     left: 0;
 }
@@ -220,7 +234,6 @@ hr {
 .slideout-open .slideout-menu {
     display: block;
 }
-
 #menuButton {
     background: radial-gradient(closest-side, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     cursor: pointer;
@@ -244,12 +257,21 @@ hr {
     background-color: #000000;
     border-bottom-color: #fff;
     text-decoration: underline;
+    transition: all 0.5s ease;
+    /* transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
 }
 
-#toc a:link,
-#toc a:active,
 #toc a:visited {
+    color: #9c9c9c;
+}
+#toc a:link{
     color: #e7e7e7;
+}
+#toc a:active {
+    background-color: #ffc400;
 }
 
 #toc h6 {
@@ -443,6 +465,8 @@ button{
   }
 
   .filter {
+    margin-left: -10% !important;
+    margin-right: -10% !important;
     top: 0vw;
     position: -webkit-sticky;
     position: sticky;
