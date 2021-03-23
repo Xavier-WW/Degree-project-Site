@@ -16,7 +16,7 @@
     <script src="assets/script.js" type="text/javascript"></script>
     <!--remember to use the fontawsome icon!!!-->
     <script src="https://kit.fontawesome.com/3b624c0899.js" crossorigin="anonymous"></script>
-    <!--PopperJS-Prevent preview/tooltip Overflow-->
+    <!--PopperJS-Prevent preview/tooltip Overflow-start-->
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script>
       const button = document.querySelector('#button');
@@ -28,6 +28,7 @@
         placement: 'right',
       });
     </script>
+    <!--PopperJS-end-->
     <script type="text/javascript" src="assets/jquery-1.4.2.js"></script>
     <script src="assets/25feb.js"></script>
     <script src="assets/prism.js"></script>
@@ -38,8 +39,10 @@
       gtag('js', new Date());
       gtag('config', 'UA-11649917-2');
     </script>
-    <style type="text/css">html {height:100%;}.noScroll{overflow:hidden !important;}* {-moz-transform-origin: 0 0;-webkit-transform-origin: 0 0;-o-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;}body.noScroll,html.noScroll body{margin-right:0px;}</style><style type="text/css">.zoomTarget{-webkit-touch-callout: none;-moz-user-select:none;-webkit-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;}.zoomTarget:hover{cursor:pointer!important;}.zoomNotClickable{-webkit-touch-callout: default;-moz-user-select:text;-webkit-user-select:text;-o-user-select:text;-ms-user-select:text;user-select:text;}.zoomNotClickable:hover{cursor:auto!important;}.zoomContainer{position:relative;padding:1px;margin:-1px;}</style><link type="text/css" rel="stylesheet" charset="UTF-8" href=".assets/translateelement.css">
+    <!-- <style type="text/css">html {height:100%;}.noScroll{overflow:hidden !important;}* {-moz-transform-origin: 0 0;-webkit-transform-origin: 0 0;-o-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;}body.noScroll,html.noScroll body{margin-right:0px;}</style><style type="text/css">.zoomTarget{-webkit-touch-callout: none;-moz-user-select:none;-webkit-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;}.zoomTarget:hover{cursor:pointer!important;}.zoomNotClickable{-webkit-touch-callout: default;-moz-user-select:text;-webkit-user-select:text;-o-user-select:text;-ms-user-select:text;user-select:text;}.zoomNotClickable:hover{cursor:auto!important;}.zoomContainer{position:relative;padding:1px;margin:-1px;}</style><link type="text/css" rel="stylesheet" charset="UTF-8" href=".assets/translateelement.css"> -->
   </head>
+
+
   <body>
   <div id="menu">
     <div id="toc"></div>
@@ -50,17 +53,10 @@
     </div>
 
     <div id="bookPadding">
-      <!--<p><img alt="Front End Developers Handbook 2019 Cover" src="./assets/images/FM_2019Cover_final.jpg"></p>-->
-      <h1>Indexing system of web front-end knowledge</h1>
-
-      <!--<h3 style="margin-top:0px"><a id="Written_by_Cody_Lindleyhttpcodylindleycom_3"></a>Written by <a href="http://codylindley.com/">Cody Lindley</a></h3>
-      <section>
-        <p><em>Sponsored by <a href="https://frontendmasters.com/">Frontend Masters</a>, advancing your skills with in-depth, modern front-end engineering courses</em></p>
-      </section>
-      <p>Download: <a href="https://github.com/FrontendMasters/front-end-handbook-2019/raw/master/exports/Front-end%20Developer%20Handbook%202019.pdf">PDF</a> | <a href="https://github.com/FrontendMasters/front-end-handbook-2019/raw/master/exports/Front-End%20Developer%20Handbook%202019.epub">epub</a></p>-->
+      <div class="chapter" id="chapter0">
+      <h2>Indexing system of web front-end knowledge</h2>
       <hr>
-
-      <h3>Overview:</h3>
+      <h3>Overview</h3>
       <p>This is a guide that everyone can use to learn about the practice of front-end development. It broadly outlines and discusses the practice of front-end engineering: how to learn it and what tools are used when practicing it.</p>
       <p>It is specifically written with the intention of being a professional resource for potential and currently practicing front-end designers/developers to equip themselves with learning materials and development tools. Secondarily, it can be used by managers, CTOs, instructors, and head hunters to gain insights into the practice of front-end development.</p>
       <p>The content of the handbook favors web technologies (HTML, CSS, DOM, and JavaScript) and those solutions that are directly built on top of these open technologies. The materials referenced and discussed in the book are either best in class or the current offering to a problem.</p>
@@ -72,22 +68,25 @@
       Chapter <a href="#7">7</a> is various is a website that uses specific technology under different functional classifications and is worthy of reference.</p>
       <hr>
       <h3>User manual</h3>
-      <p>1. Use TOC to navigate
-        Indexing <br>The selected item is reversed color
+      <p><strong>1. Use TOC to navigate Indexing</strong>
+         <br>The selected item is reversed color
         and the font is bold;
         Group knowledge points according 
-        to knowledge system categories.<br>2.1 Fillter to nvaigate-Tag/fillter<br>Arrange page based on selected
-        function/programming language<br>2.2 Visible search bar-Tag/fillter<br>3.1 Real time link/page preview
+        to knowledge system categories.<br>The content you already viewed marked as grey color.<br>
+        <strong>2.1 Fillter to nvaigate-Tag/fillter</strong><br>Arrange page based on selected
+        function/programming language<br><strong>2.2 Visible search bar-Tag/fillter</strong><br>Use Ctrl+F(Win) or Command⌘+F(Mac) 
+        to search all of the page content<br><strong>3.1 Real time link/page preview</strong>
         Preview <br>Use real-time preview to locate what 
-        you are looking for in a page.<br>3.2 Highlight Preview<br>Highlight all previewable content.  
+        you are looking for in a page.<br><strong>3.2 Highlight Preview</strong><br>Highlight all previewable content.  
         And can be switched by mouse hover/
         tab key/touch interaction on desktop 
-        and moblie device<br>4. One scroll-based page
-        One scroll-based page<br>The page has only text and a few pictures; 
+        and moblie device<br><strong>4. One scroll-based page</strong>
+        <br>The page has only text and a few pictures; 
         fast page loading; full-page search. 
         And with real-time preview to achieve fast
         and effective information retrieval.</p>
         <p><img alt="" src="./assets/images/user-manual.jpg" title="https://www.upwork.com/hiring/development/front-end-developer/"> 
+      </div>
       <!--<hr>
       <p><strong>Contribute content, suggestions, and fixes on github</strong>:</p>
       <p><a href="https://github.com/FrontendMasters/front-end-handbook-2019">https://github.com/FrontendMasters/front-end-handbook-2019</a></p>-->
@@ -97,7 +96,7 @@
           <div class="circle"></div>
           Information  </button></div> -->
       <div class="filter" style="pointer-events: auto; opacity: 1;">
-        <button class="" id="info">
+        <button id="info" class="selected">
           <div class="circle"></div> Info 
         </button>
         <button id="html" class="">
@@ -109,32 +108,32 @@
         <button id="js" class="">
           <div class="circle"></div>JS
         </button>
-        <button id="nav" class="">
-          <div class="circle"></div>Navbar
+        <button id="fe" class="">
+          <div class="circle"></div>Front-End
         </button>
         <button id="typo" class="">
           <div class="circle"></div>Typography
         </button>
-        <button id="webgl" class="">
+<!--         <button id="webgl" class="">
           <div class="circle"></div>WebGL
-        </button>
+        </button> -->
         <button id="ui" class="">
           <div class="circle"></div>UI/UX
         </button>
         <button id="ani" class="">
           <div class="circle"></div>Animations
         </button>
-        <button id="ec" class="">
+<!--         <button id="ec" class="">
           <div class="circle"></div>Electric Colors
-        </button>
-        <button id="vector" class="">
-          <div class="circle"></div>Vector
+        </button> -->
+        <button id="nav" class="">
+          <div class="circle"></div>Navbar
         </button>
         <button id="ie" class="">
           <div class="circle"></div>Interactive Experience
         </button>
         <button id="tool" class="">
-          <div class="circle"></div>Code Editors/Online Tools
+          <div class="circle"></div>Online Tools
         </button>
         <button id="rd" class="">
           <div class="circle"></div>Responsive Design
@@ -143,7 +142,9 @@
           <div class="circle"></div>Inspirational sites
         </button>
       </div>
-    <div class="info" id="project1" style="display: inline-block;">   
+
+<!-- Chapter 1 -->
+    <!-- Start here<div class="info" id="project1" style="display: inline-block;">    -->
       <div class="chapter" id="chapter1">
         <h2>Chapter 1. What Is a Front-end Developer?</h2>
         <section class="sub">
@@ -245,7 +246,9 @@
           </ol>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
+
+<!-- Chapter 2 -->
       <div class="chapter" id="chapter2">
         <h2>Chapter 2. The Practice of Front-end Development: Overview</h2>
         <section class="sub">
@@ -1086,7 +1089,7 @@
           </li>
         </ul>
         <!--<div class="html css" style="display: inline-block;"></div>-->
-        <div class="html css" id="project1" style="display: inline-block;"></div>
+        <div class="html css" id="project1">
           <h3>3.8 - Learn HTML &amp; CSS</h3>
           <blockquote>
             <p><strong>HTML</strong> - HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.</p>
@@ -1307,6 +1310,7 @@
               <a href="http://mdo.github.io/code-guide/" target="_blank">Standards for Developing Flexible, Durable, and Sustainable HTML and CSS</a> [read]
             </li>
           </ul>
+        </div>
         <!--</div>-->
         <h3>3.9 - Learn Search Engine Optimization</h3>
         <blockquote>
@@ -5309,12 +5313,13 @@
     </div>
   </div>
   </div>
-  <script src="assets/25feb.js"></script>
-  <script src="assets/slideout.min.js"></script>
-  <script src="assets/jquery-3.3.1.slim.min.js"></script>
-  <script src="assets/lozad-1.14.0.min.js"></script>
+  <script src="assets/25feb.js" type="text/javascript"></script>
+  <script src="assets/slideout.min.js" type="text/javascript"></script>
+  <script src="assets/jquery-3.3.1.slim.min.js" type="text/javascript"></script>
+  <script src="assets/lozad-1.14.0.min.js" type="text/javascript"></script>
   <script src="assets/jquery.lazy.min.js" type="text/javascript"></script>
   <script src="assets/jquery-2.2.4.min.js" type="text/javascript"></script>
+  <script src="assets/js/scrollTo.js" type="text/javascript"></script>
   <script>
       // Lazy load images that have [data-src]
       var observer = lozad('[data-src]');
@@ -5367,10 +5372,10 @@
            slideout.toggle();
          });
 
-       // restore slideout state after clicking nav link
+      /*  // restore slideout state after clicking nav link
        jQuery("#menu").on("click", "a[href^='#']", function() {
          actualResizeHandler();
-       });
+       }); */
 
        // toggle TOC on window resize
        window.addEventListener("resize", resizeThrottler, false);
