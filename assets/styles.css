@@ -2,7 +2,7 @@
     color:#069; 
     cursor:context-menu;
 }
-.prev {
+.pv {
     display:none;
     /*position:absolute; */
     position:absolute;
@@ -21,9 +21,9 @@
     transform-origin:0 0;*/
 }
 /*scroll smooth -- 21 Mar*/
-html {
+ html {
 	scroll-behavior: smooth;
-}
+} 
 
 body {
     z-index: 1;
@@ -413,8 +413,8 @@ tbody tr:nth-child(odd) {
 /* filter */
 button{
     cursor: pointer;
-    font-size: 1.25vw; /*vw-Relative to 1% of the width of the viewport*/
-    line-height: 1.5vw;
+    font-size: 1vw; /*vw-Relative to 1% of the width of the viewport*/
+    line-height: 1.25vw;
     border: 0.105vw solid black;
     background: white;
     padding: 0.25vw;
@@ -428,7 +428,7 @@ button{
   
   button:hover{
     color: white;
-    border: 0.105vw solid black;
+    border: 0.09vw solid black;
     background: black;
   }
   
@@ -465,8 +465,8 @@ button{
   }
 
   .filter {
-    margin-left: -10% !important;
-    margin-right: -10% !important;
+    margin-left: -1% !important;
+    margin-right: -1% !important;
     top: 0vw;
     position: -webkit-sticky;
     position: sticky;
@@ -482,9 +482,9 @@ button{
   }
     
   .filter button{
-    /*position: relative;*/
+    position: relative;
     display: inline-block;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.3vw;
   }
 
   #spectialbutton{
@@ -524,21 +524,3 @@ button{
   #info.active{
     margin-bottom: 2.5vw !important;
   }
-/*
-  .projects{
-    min-height: calc(100vh - 6vw);
-  }
-  
-  .project div{
-    margin-top: 0.75vw;
-  }
-
-  .hiddden{
-    opacity: 0;
-    pointer-events: none !important;
-  }
-
-  .overflowww{
-    pointer-events: none !important;
-  }
-  */

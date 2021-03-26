@@ -1,9 +1,9 @@
-// Hover Preview 22 Mar
+// Hover Web page Preview 22 Mar
 $(".tiptext").mouseover(function() {
-    $(this).children(".prev").show();
+    $(this).children(".pv").show();
 
 }).mouseout(function() {
-    $(this).children(".prev").hide(); 
+    $(this).children(".pv").hide(); 
 });
 
 // Smooth scrolling for browsers that don't support CSS smooth scrolling -- 21 Mar
@@ -20,7 +20,8 @@ if (window.getComputedStyle(document.documentElement).scrollBehavior !== 'smooth
         }
     });
 }
-/*-- 23 Mar -- not working
+
+/* -- not working --
 $(function() {
     $(window).scroll(function() {
       $(":header").each(function() {
@@ -33,7 +34,7 @@ $(function() {
     });
   });
 
- //ScrollSpy with IntersectionObserver to highlight left toc -- 22 Mar -- not working
+ //ScrollSpy with IntersectionObserver to highlight left toc  -- not working
 window.addEventListener('DOMContentLoaded', () => {
 
 	const observer = new IntersectionObserver(entries => {
