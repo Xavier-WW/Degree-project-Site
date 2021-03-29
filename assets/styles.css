@@ -14,12 +14,14 @@
     background-color: #ffffff;/*some URL use trans back color - use bkc will cover it*/
     width:600px;
     height:600px;
-    transition-delay:1s;
-    /*overflow-x:hidden;
+    /*transition-delay:1s;
+    overflow-x:hidden;
     overflow-y:auto;*/
     /*transform-origin:center bottom;
     transform-origin:0 0;*/
 }
+
+.iframe
 /*scroll smooth -- 21 Mar*/
  html {
 	scroll-behavior: smooth;
