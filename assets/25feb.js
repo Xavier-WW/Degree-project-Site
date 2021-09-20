@@ -1,4 +1,4 @@
-// Hover Web page Preview 22 Mar
+// Hover Web page Preview
 $(".tiptext").mouseover(function() {
     $(this).children(".pv").show();
 
@@ -21,7 +21,7 @@ if (window.getComputedStyle(document.documentElement).scrollBehavior !== 'smooth
     });
 }
 
-/* -- not working --
+/* -- temp --
 $(function() {
     $(window).scroll(function() {
       $(":header").each(function() {
