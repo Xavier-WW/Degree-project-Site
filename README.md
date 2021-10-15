@@ -7,4 +7,4 @@ Tap link to know more about it: https://xavier-ww.github.io/Degree-project/
 <br />
 Preview:
 
-![Project <⁄glimpse>](https://github.com/Xavier-WW/Degree-project/blob/gh-pages/preview%20(2).gif)
+![Project <⁄glimpse>](https://github.com/Xavier-WW/Degree-project/blob/gh-pages/preview.gif)
