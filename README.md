@@ -9,3 +9,10 @@ Tap the link to learn more about it <a href="https://xavier-ww.github.io/Degree-
 Preview:
 
 ![Project <⁄glimpse>](https://github.com/Xavier-WW/Degree-project/blob/gh-pages/preview.gif)
+
+### Technologies Used
+
+HTML5 | CSS3 | JavaScript ES6 | Git | GitHub
+
+### Research Methodology action research
+
